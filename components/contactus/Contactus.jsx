@@ -3,7 +3,7 @@ import './contactus.css';
 const Contactus = () => {
   return (
     <div>
-      Contact us
+      
     </div>
   )
 }

@@ -32,6 +32,35 @@
   box-shadow: 0px 4px 6px rgba(255, 0, 0, 0.1); 
 }
 
+.navbar.talktous-navbar {
+  background-color: #01214b; 
+  height: 40px; 
+  justify-content: space-between;
+  padding: 35px 50px;
+  margin-bottom: 200px;
+}
+
+.talktous-navbar .navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.talktous-navbar .navbar-logo-text {
+  font-size: 1.5rem;
+  color: #0a06fc;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.talktous-navbar .navbar-links a {
+  color: #eb0707;
+}
+
+.talktous-navbar .navbar-links a:hover {
+  color: #ccc;
+}
+
+
 .navbar.scrolled {
   background: transparent;
 }
@@ -227,3 +256,4 @@
     backdrop-filter: blur(5px);
   }
 }
+

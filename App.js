@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Header, Footer } from './containers';
 import {
   Navbar,
-  Home,
   About,
   Chatbot,
   Services,
@@ -14,7 +13,6 @@ import {
 const App = () => {
   return (
     <Router>
-  
       <Routes>
         <Route
           path="/"
@@ -22,17 +20,30 @@ const App = () => {
             <>
               <Header />
               <Navbar />
-              <Home />
-              <Services />
               <About />
+              <Services />
               <Chatbot />
               <Contactus />
               <Footer />
             </>
           }
         />
-        
-        {/* Separate Route for Talk to Us */}
+
+        <Route
+          path="/techSynergy"
+          element={
+            <>
+              <Header />
+              <Navbar />
+              <About />
+              <Services />
+              <Chatbot />
+              <Contactus />
+              <Footer />
+            </>
+          }
+        />
+
         <Route
           path="/talktous"
           element={

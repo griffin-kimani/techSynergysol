@@ -30,9 +30,6 @@ const Navbar = () => {
           <div className="navbar-logo">
             <img src={logo} alt="Logo" />
           </div>
-          <ul className="home-link">
-            <li><Link to="/">Home</Link></li>
-          </ul>
         </div>
 
         <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>

@@ -30,9 +30,9 @@ const App = () => {
         />
 
         <Route
-          path="/techSynergy"
-          element={
-            <>
+          path="/techSynergysol"
+          element={    
+                   <>
               <Header />
               <Navbar />
               <About />
